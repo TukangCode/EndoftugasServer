@@ -1,0 +1,14 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .book>.clear:nth-child(4n)::before {
+      content: '';
+      display: table;
+      clear: both;
+    }
+}
+@media (min-width: 992px) {
+    .book>.clear:nth-child(6n)::before {  
+      content: '';
+      display: table;
+      clear: both;
+    }
+}

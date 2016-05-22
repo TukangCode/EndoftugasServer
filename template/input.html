@@ -1,0 +1,32 @@
+
+<form name="formDaftar" ng-submit="simpanBuku(buku)">
+<div class="row">
+	<fieldset>
+		<legend>Tambah Data Buku</legend>
+		<div class="form-group">
+			<label>Jenis</label>
+			<select required="required" class="form-control" ng-model="buku.jenis">
+				<option value="CO">komik cowok</option>
+				<option value="CE">komik cewek</option>
+				<option value="NI">Novel Indonesia</option>
+				<option value="NB">Novel Barat</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label>kode</label>
+			<input type="text" class="form-control" ng-model="buku.kode" required/>
+		</div>
+		<div class="form-group">
+			<label>judul</label>
+			<input type="text" class="form-control" ng-model="buku.judul" required/>
+		</div>
+		<div class="form-group">
+			<label>Harga Sewa</label>
+			<input type="text" class="form-control" ng-model="buku.harga_sewa"required/>
+		</div>
+		<div class="form-group">
+			<input type="submit" value="simpan" class="btn btn-primary" ng-click="submitted=true" />
+		</div>
+	</fieldset>
+</div>
+</form>

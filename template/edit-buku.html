@@ -1,0 +1,23 @@
+
+<form name="formDaftar" ng-submit="updateBuku(buku)">
+<div class="row">
+	<fieldset>
+		<legend>Edit Data Buku</legend>
+		<div class="form-group">
+			<label>kode</label>
+			<input type="text" class="form-control" ng-model="buku.kode" disabled="disabled"/>
+		</div>
+		<div class="form-group">
+			<label>judul</label>
+			<input type="text" class="form-control" ng-model="buku.judul" />
+		</div>
+		<div class="form-group">
+			<label>Harga Sewa</label>
+			<input type="text" class="form-control" ng-model="buku.harga_sewa"/>
+		</div>
+		<div class="form-group">
+			<input type="submit" value="Update" class="btn btn-primary" ng-click="submitted=true" />
+		</div>
+	</fieldset>
+</div>
+</form>
