@@ -1,0 +1,16 @@
+{
+  "name": "MatakuliahServer",
+  "authors": [
+    "Yudi Hartono"
+  ],
+  "description": "server matakuliah",
+  "main": "index.php",
+  "keywords": [
+    "matakuliah"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

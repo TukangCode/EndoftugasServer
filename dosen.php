@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Matakuliah</title>
+    <title>Catering Mama</title>
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -68,74 +68,93 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 <div class="container">
-<div style="background:transparent !important" class="jumbotron">
-<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-  <h2>Download Aplikasi Android Matakuliah! </h2>
-  <p>cari informasi matakuliah, jadwal kuliah, tugas, materi dan nilai sekarang lebih mudah dengan aplikasi android. Download sekarang! </p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+<div class="row">
+            <div class="col-md-3 col-lg-3">
+                <a href="#">
+                    <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                </a>
+		      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+            </div>
+<div class="col-md-9 col-lg-9">
+<div class="row">
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/400/200/sports" alt="...">
+      <div class="caption">
+        <p><a href="#" class="btn btn-primary" role="button">Jadwal</a></p>
+      </div>
+    </div>
   </div>
-  				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				<img src="img/smartphone.jpg">
-				</div>
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/400/200/sports" alt="...">
+      <div class="caption">
+        <p><a href="#" class="btn btn-primary" role="button">Nilai</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/400/200/sports" alt="...">
+      <div class="caption">
+        <p><a href="#" class="btn btn-primary" role="button">Tugas</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/400/200/sports" alt="...">
+      <div class="caption">
+        <p><a href="#" class="btn btn-primary" role="button">Materi</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Panel heading</div>
+  <div class="panel-body">
+    <!-- Table -->
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Hari</th>
+        <th>Jam</th>
+        <th>Matakuliah</th>
+		<th>Ruang</th>
+		<th>Option</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Senin</td>
+        <td>07.00-09.00</td>
+        <td>Pemprograman berbasis object</td>
+		<td>IA</td>
+		<td>
+			<a href="#" class="btn btn-success" role="button">Edit</a>
+			<a href="#" class="btn btn-danger" role="button">Hapus</a>
+		</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div
 </div>
-</div>
-    <div class="container">
+  </div>
+ </div>
 
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Informasi Matakuliah</h1>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#">
-                    <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Project One</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="#">Detail <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-3">
-                <a href="#">
-                    <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
-                </a>
-            </div>
-            <div class="col-md-9">
-                <h3>Project Two</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="#">Detail <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
-        <!-- /.row -->
-		<hr>
-		<nav>
-  <ul class="pager">
-    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
-  </ul>
-</nav>
-		</div>
-	</div>
     <!-- Footer -->
     <footer>
         <div class="container">
+		<hr>
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <p class="copyright text-muted">Copyright &copy; Skripsi Mahasiswa 2016</p>
